@@ -59,7 +59,7 @@ de `package.json`.
 _Let op_: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo goed weet waar je moet beginnen, kun je
 onderstaand stappenplan gebruiken:
 
-1. Installeer en importeer Axios;
+1. Installeer en importeer Axios; V
 2. Neem de documentatie van de REST Countries API goed door. Welk endpoint heb je nodig om informatie over alle landen
    op te halen?
 3. Schrijf een asynchrone functie die, met behulp van Axios, een GET-request maakt naar het juiste endpoint. Log de

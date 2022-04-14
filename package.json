@@ -10,7 +10,10 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "axion": "^0.1.0",
+    "axios": "^0.26.1"
+  },
   "devDependencies": {
     "parcel": "^2.0.0",
     "parcel-plugin-nuke-dist": "^1.0.1"
