@@ -8,13 +8,45 @@
 </head>
 <body>
 <main class="outer-content-container">
+
     <div><h1>World regions</h1></div>
     <div class="">
         <img src="assets/world_map.png" alt="world map" width="1000" height="600">
     </div>
-    <div class="flags"> <p>hier komen alle landen en vlagen te staan</p>
+    <div class="flags"><p>hier komen alle landen en vlagen te staan</p>
+        <ul id="Bouvet-Island">
+            <img src="https://flagcdn.com/bv.svg" alt="" width="20" height="15">
+        </ul>
+        <ul id="Heart-island">
+            <img src="https://flagcdn.com/hm.svg" alt="" width="20" height="15">
+        </ul>
+        <ul id="South-Georgia">
+            <img src="https://flagcdn.com/bv.svg" alt="" width="20" height="15">
+        </ul>
+        <ul id="Pitcaim">
+            <img src="https://flagcdn.com/bv.svg" alt="" width="20" height="15">
+        </ul>
+        <ul id="French-Southern">
+            <img src="https://flagcdn.com/bv.svg" alt="" width="20" height="15">
+        </ul>
+        <ul id="United-States">
+            <img src="https://flagcdn.com/bv.svg" alt="" width="20" height="15">
+        </ul>
+        <ul id="Vatican-City">
+            <img src="https://flagcdn.com/bv.svg" alt="" width="20" height="15">
+        </ul>
+        <ul id="Cocos">
+            <img src="https://flagcdn.com/bv.svg" alt="" width="20" height="15">
+        </ul>
+        <ul id="Antartica">
+            <img src="https://flagcdn.com/bv.svg" alt="" width="20" height="15">
+        </ul>
     </div>
+    countryList.innerHTML =`
+    <li>Has a population of ${response.data[30].flag}</li>
+    `;
 </main>
 <script type="module" src="app.js"></script>
 </body>
 </html>
+

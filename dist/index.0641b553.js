@@ -471,11 +471,14 @@ console.log('Hallo daar!');
 // try/catch blok om de errors af te vangen
 //elementen in html maken, referentie opslaan vanuit js
 //de data injecteren (map-methode)
+const countryList = document.getElementById('Bouvet-Island');
 async function fetchCountries() {
     try {
         //het request maken
-        const responce = await _axiosDefault.default.get('https://restcountries.com/v2/all');
-        console.log(responce.data[0].languages[1].name);
+        const response = await _axiosDefault.default.get('https://restcountries.com/v2/all');
+        console.log(response.data);
+        const flag = response.map((flag)=>{
+        });
     } catch (e) {
         //de errors afvangen
         console.error(e);
